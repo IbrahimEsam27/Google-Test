@@ -17,7 +17,7 @@ TEST(Parent_Test, Test_2)
 
 /*===================================TEST_F===========================================*/
 
-/*We had to creae the class twice , once in each function,, The alternative is to make a class
+/*We had to create the class twice , once in each function,, The alternative is to make a class
 global and shared between testcases BUTT this is not best sloution so the solution is to use TEST_F*/
 
 class StudentTest : public testing::Test
